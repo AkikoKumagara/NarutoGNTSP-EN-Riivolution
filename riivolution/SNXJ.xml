@@ -1,0 +1,16 @@
+<wiidisc version="1">
+	<id game="SNX" />
+	<options>
+		<section name="Testing">
+			<option name="File Replacement">
+				<choice name="Enabled">
+					<patch id="File" />
+				</choice>
+			</option>
+		</section>
+	</options>
+	<patch id="File">
+		<folder external="/gntsp" recursive="false" />
+		<folder external="/gntsp" disc="/" />
+	</patch>
+</wiidisc>
